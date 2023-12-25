@@ -1,0 +1,250 @@
+.form {
+  height: 456px;
+  background: url("https://s3-alpha-sig.figma.com/img/7cb3/61ef/a1b531595b8b03f57c928d8c0c5acad3?Expires=1704672000&Signature=luMjbm3fvX1l0y2ptV5~mNkXM8EmsoizG6QJS9U8-ExkMf8gVzyTiN89DQHn5AH9CJ8ex7V42yCj~P98UUXQGy4QzJp5rbrcxTgkvGrFcHQzTw2pKpLGi~GKJLV12txJu2yiFPGwCEtvhAY-flrc7j1rHh382L9zhvn43PKnbfPUsx0bbt0vURrm~wvbhAiwwKt9IDNXqmw9bHwkwg1Zx0MJtWmJNo2Unvgz1Yo-fYj0WZulJWVBU2abmaobutWEBbQsF33BJnMoQnwiqCKgRELBEZcWrO6htt8usmT6qgtK68vLSxA0-XV1ywulNL86XN5Jywch3Obr~5d61p~McA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4")
+    no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.f1 {
+  height: 221px;
+  width: 79.9vw;
+  border-radius: 13px;
+  background: #fff;
+  box-shadow: 0px 4px 29px 0px rgba(0, 0, 0, 0.28);
+}
+
+.para {
+  /* Your styles here */
+  color: #fff;
+  font-family: Rounded Mplus 1c;
+  font-size: 6vh;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.f1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.f2 {
+  display: flex;
+  justify-content: center;
+  gap: 3vw;
+}
+
+.f2 button {
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 12.5vw;
+  height: 35.36px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  box-shadow: 0px 4px 22px 0px rgba(0, 0, 0, 0.17);
+  background-color: white;  /* Default background color for all buttons */
+  border: 1px solid #38b000;   
+  border:none;
+}
+
+/* Styling for the selected button */
+.f2 button.selected {
+  background-color: #38b000;  /* Green background for the selected button */
+  color: white;  /* Text color for better visibility */
+  border: none;  /* Removing the border for the selected button */
+}
+
+/* .f2 button.selected {
+  border:none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 12.5vw;
+  height: 35.36px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #38b000;
+  box-shadow: 0px 4px 22px 0px rgba(0, 0, 0, 0.17);
+}
+
+.f2 button:not(.selected) {
+  border:none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 12.5vw;
+  height: 35.36px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: white;
+  box-shadow: 0px 4px 22px 0px rgba(0, 0, 0, 0.17); 
+} */
+
+
+f2 button {
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 12.5vw;
+  height: 35.36px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  box-shadow: 0px 4px 22px 0px rgba(0, 0, 0, 0.17);
+  background-color: white;  /* Default background color for all buttons */
+}
+
+/* Styling for the selected button */
+.f2 button.selected {
+  background-color: #38b000;  /* Green background for the selected button */
+  color: white;  /* If you want the text color to be white for better visibility */
+}
+
+/* Green border for buttons that are not selected */
+.f2 button:not(.selected) {
+  border: 1px solid #38b000;
+}
+
+
+
+
+
+
+.f4 {
+  width: 72.9vh;
+  height: 36.633px;
+  display: flex;
+  justify-content: center;
+  gap: 4vw;
+}
+.f3 {
+  display: flex;
+  gap: 3vw;
+}
+
+.f3 button {
+  border:none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 123px;
+  height: 24.657px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: white;
+  box-shadow: 0px 4px 22px 0px rgba(0, 0, 0, 0.17);
+}
+
+.f3 button.selected {
+  background-color: #38b000;  /* Green background for the selected button */
+  color: white;  /* Text color for better visibility */
+  border: none;  /* Removing the border for the selected button */
+}
+
+.f5 {
+  width: 263px;
+  height: 29px;
+  border-radius: 5px;
+  background: #38b000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 22px 0px rgba(0, 0, 0, 0.17);
+  border:none;
+}
+
+.f6 {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2vh;
+}
+
+.f6 p {
+  color: #111;
+  font-family: Lato;
+  font-size: 1.05vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.f6 input {
+  width: 14vw;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+.f6 input :active {
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+
+@media (max-width:400px) {
+
+    .para{
+       font-size: 4vw; 
+       margin: 0 5vw;
+    }
+
+    .nav{
+        display: none;
+    }
+    .form{
+        height: 529px;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+    }
+    .f1{
+        width: 90vw;
+        height: 441.636px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .f4 {
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       margin:20vh 0;
+       width: 100vw;
+      }
+      .f6 p{
+        font-size: 3vw;
+      }
+      .f6 input{
+        width:70vw;
+      }
+
+      .f2 div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 4vw;
+        width: 24vw;
+        height: 5vw;
+        padding: 3vw 0;
+      }
+
+      .f3 div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 4vw;
+        width: 24vw;
+        height: 5vw;
+        padding: 3vw 0;
+      }
+    .f5{
+        width: 40vw;
+    }
+}

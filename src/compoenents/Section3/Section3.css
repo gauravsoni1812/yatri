@@ -1,0 +1,44 @@
+.g1 {
+  height: 535px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #2f313c;
+  gap:3vh;
+}
+
+.g1p1 {
+  color: #38b000;
+  width: 95.2vw;
+  font-family: Rounded Mplus 1c;
+  font-size: 2.3vw;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-top: 2vh;
+  text-align: center;
+}
+
+.g1ul1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:3vh;
+}
+
+.g1ul1 li {
+    width: 92.9vw;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 1.2vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    list-style-type: disc;  
+    margin-bottom: 0.6vh; 
+    text-indent: -25px;  
+    padding-left: 40px;  
+   
+}

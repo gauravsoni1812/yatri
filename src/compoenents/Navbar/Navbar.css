@@ -1,0 +1,113 @@
+.nav {
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: antiquewhite; */
+}
+
+.nav img {
+  width: 195.542px;
+  height: 65px;
+  flex-shrink: 0;
+}
+
+.phones {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-right: 3vw;
+}
+
+.phone1 {
+  width: 44.02px;
+  height: 44.02px;
+  flex-shrink: 0;
+  background-color: #e6f5e0;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  padding: 1vw;
+  position: relative;
+  bottom: 4px;
+}
+
+.p1 {
+  position: relative;
+  top: 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.p2 {
+  position: relative;
+  top: 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.p2 span {
+  position: relative;
+  bottom: 23px;
+}
+
+.phone1 svg {
+  position: relative;
+  bottom: 10px;
+}
+
+.p3 {
+  display: none;
+}
+
+.p4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.p4 {
+  position: relative; /* This will make sure the absolute positioning of children is relative to this container */
+}
+
+/* Position the ellipse SVG (second SVG) in the middle */
+.p4 > svg:nth-child(2) {
+  position: absolute;
+  top: 50%;
+  left: 26%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+/* Adjust the positioning of the third SVG to bring it closer to the second SVG */
+.p4 > svg:nth-child(3) {
+  margin-left: -25px; /* Adjust this value as needed to bring the third SVG closer to the second one */
+  z-index: 1;
+  position: relative;
+  bottom: 1px;
+}
+
+.p5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 205px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 39px;
+  background: #38b000;
+  position: relative;
+  bottom: 4px;
+  right: 36px;
+}
+
+@media (max-width: 600px) {
+  .nav {
+    display: none;
+  }
+}

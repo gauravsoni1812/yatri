@@ -1,0 +1,132 @@
+.h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.h2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 8vh;
+  margin-bottom: 2vh;
+  width: 91.3vw;
+  /* background-color: antiquewhite; */
+  height: 391px;
+  border: 2px solid black;
+}
+
+.h2 img {
+  margin: 0 2vw;
+}
+
+.h3 {
+  /* background-color: rgb(223, 148, 148); */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50vw;
+  height: 50vh;
+}
+
+.h4r1 {
+  display: flex;
+  margin: 2vh 0;
+}
+.h3p {
+  color: #38b000;
+  font-family: Rounded Mplus 1c;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.h5 {
+  display: flex;
+}
+
+.h5p1 {
+  color: #38b000;
+  font-family: MTTMilano-Medium;
+  font-size: 1vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  width: 14vw;
+  margin: 1vh 0;
+  margin-bottom: 3vh;
+}
+
+.h5p2 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 0.9vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  width: 12vw;
+}
+
+.h5i1 {
+  width: 3.5vw;
+  height: 4vw;
+  flex-shrink: 0;
+}
+
+.h2 {
+  border-radius: 10px;
+  border: 1px solid #38b000;
+
+  background: #fff;
+}
+
+.h6{
+    /* background-color: aquamarine; */
+    width: 100vw;
+}
+
+.h6p1f1{
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+}
+
+
+
+.h6p1 {
+  text-align: center;
+  color: #38b000;
+  font-family: Rounded Mplus 1c;
+  font-size: 2.8vw;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+  margin: 2vh 0;
+  margin-bottom: 3vh;
+}
+
+ 
+
+.h6r1 li {
+    text-align: right;
+  color: #000;
+  font-family: MTTMilano-Medium;
+  font-size: 1.5vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+
+.h6r1{
+    display: flex;
+    justify-content: space-around;
+
+}
